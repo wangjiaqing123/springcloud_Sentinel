@@ -5,6 +5,10 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8888
+
+      web-context-unify: false
+      #      关闭URL PATH聚合
+
   main:
     allow-circular-references: true
-# 需要添加这句否者启动失败
+  # 需要添加这句否者启动失败
