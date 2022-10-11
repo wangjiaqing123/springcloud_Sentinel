@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service-sentinel
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8888
+  main:
+    allow-circular-references: true
+# 需要添加这句否者启动失败
